@@ -1,6 +1,6 @@
 # ECG Notch Filtering and QRS Detection
 
-A Python DSP study of power-line interference in ECG recordings from the MIT-BIH Arrhythmia Database. The project compares fixed and adaptive notch filters, then evaluates their output with Pan-Tompkins QRS detection.
+A Python DSP study of power-line interference in ECG recordings from the MIT-BIH Arrhythmia Database. The project compares fixed and adaptive notch filters, then evaluates their output with Pan-Tompkins QRS detection. The accompanying paper is by Mohammad Bazzar and Bashar Ghosheh.
 
 ## Problem
 
@@ -35,7 +35,7 @@ This is Figure 3 from [Paper.pdf](Paper.pdf). The figure shows the filtered time
 
 ## Run
 
-Python 3.8 or newer and an internet connection are needed to fetch MIT-BIH data through WFDB. From the repository root:
+Python 3.10 or newer and an internet connection are needed to fetch MIT-BIH data through WFDB. From the repository root:
 
 ### Windows PowerShell
 
@@ -63,3 +63,4 @@ The script prints comparison metrics and opens time/frequency plots and the Pan-
 - `requirements.txt` - Python dependencies.
 - `Paper.pdf` - project report and source for the reported results and Figure 3.
 - `results/post-filtering-comparison.png` - extracted Figure 3 image used above.
+
